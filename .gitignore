@@ -1,0 +1,24 @@
+# 仮想環境・データセット・参考文献・作業用メモ (common.md 指定の非公開対象)
+venv/
+datasets/
+ref/
+common.md
+prompt.md
+
+# Python キャッシュ・一時ファイル
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook チェックポイント
+.ipynb_checkpoints/
+
+# 各種隠しファイル・エディタ設定 (.gitignore 自身は公開対象として維持)
+.*
+!.gitignore
+Thumbs.db
+Desktop.ini
